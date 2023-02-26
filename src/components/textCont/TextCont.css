@@ -1,0 +1,21 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-heading {
+  color: #8dc63f;
+  font-size: 38px;
+}
+.text-paragraph {
+  color: #0d6db7;
+  font-weight: 600;
+  font-size: 19px;
+  margin-top: 3vh;
+}
+@media screen and (max-width: 300px) {
+  .text-heading {
+    color: #8dc63f;
+    font-size: 30px;
+  }
+}

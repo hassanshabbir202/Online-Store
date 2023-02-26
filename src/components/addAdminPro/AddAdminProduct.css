@@ -1,0 +1,39 @@
+.admin-cat-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-product{
+    background-color: #8dc63f;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-bottom: 4vh;
+}
+.add-item{
+    color: #8dc63f;
+    margin: 3vh 0vh 4vh 0vh;
+    font-size: 40px;
+}
+.inputs{
+    width: 500px;
+    border: 1px solid lightblue;
+}
+.inputs::placeholder { 
+    color: #88996f;
+    opacity: 1; 
+  }
+
+  @media screen and (max-width: 567px){
+    .inputs{
+        width: 350px;
+        border: 1px solid lightblue;
+    }
+  }
+  @media screen and (max-width: 392px){
+    .inputs{
+        width: 300px;
+        border: 1px solid lightblue;
+    }
+  }

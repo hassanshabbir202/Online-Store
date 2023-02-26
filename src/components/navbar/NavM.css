@@ -1,0 +1,14 @@
+.navlink{
+    color: #8dc63f;
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.admin-name{
+    margin-top: .5vh;
+}
+.admin-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}

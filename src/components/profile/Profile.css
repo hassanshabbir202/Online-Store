@@ -1,0 +1,23 @@
+.profile-logo{
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.update-item{
+    background-color: #8dc63f;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.log-out-btn{
+    background-color: #8dc63f;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 2vh 0vh 4vh 0vh;
+}
+.profile-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

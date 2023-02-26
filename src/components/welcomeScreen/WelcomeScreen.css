@@ -1,0 +1,23 @@
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+.btnCont {
+  display: flex;
+  justify-content: center;
+}
+.get-started {
+  background-color: #0d6db7;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.get-started:focus {
+  background-color: #8dc63f;
+  color: #fff;
+}
+.logo-image {
+  height: 150px;
+}

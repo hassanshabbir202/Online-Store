@@ -1,0 +1,18 @@
+.nav-links{
+    color: #fff;
+    text-decoration: none;
+}
+.cart-icon{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.mode-icon{
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+}
+.sup-counter{
+    color: #fff;
+}

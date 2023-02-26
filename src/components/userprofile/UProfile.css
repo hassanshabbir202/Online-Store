@@ -1,0 +1,28 @@
+.u-pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.update-name{
+    margin-top: 3vh;
+    color: #fff;
+    background-color: hsl(85deg 54% 51%);
+    border: none;
+    outline: none;
+}
+.update-name:hover{
+    color: #fff;
+    background-color: hsl(85deg 54% 51%);
+}
+.logout{
+    color: #fff;
+    background-color: hsl(85deg 54% 51%);
+    font-weight: 600;
+    padding: 0px 2rem 0px 2rem;
+    border: none;
+    outline: none;
+}
+.logout:hover{
+    color: #fff;
+    background-color: hsl(85deg 54% 51%);
+}

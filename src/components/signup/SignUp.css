@@ -1,0 +1,54 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.inputs{
+    width: 300px;
+}
+.already-have-an-account{
+    display: flex;
+    justify-content: center;
+}
+.sign-up-bg-div{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2.7rem;
+    width: 600px;
+    border-radius: 8px;
+    margin-top: 10vh;
+}
+.sign-up-btn{
+    background-color: hsl(206deg 87% 38%);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.sign-up-btn:hover{
+    color: #fff;
+}
+.already-account,.already-login{
+    text-decoration: none;
+}
+@media screen and (max-width: 577px){
+    .sign-up-bg-div{
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 2.7rem;
+        width: 400px;
+        border-radius: 8px;
+        margin-top: 10vh;
+    }
+}
+@media screen and (max-width: 416px){
+    .sign-up-bg-div{
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 2.7rem;
+        width: 310px;
+        border-radius: 8px;
+        margin-top: 10vh;
+    }
+    .inputs{
+        width: 250px;
+    }
+}
